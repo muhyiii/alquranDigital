@@ -1,11 +1,10 @@
 import React from "react";
-import Surat from "./halaman";
+import Surat from "./halaman/daftar surat";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
-import Atas from "./komponen/atas";
-import Artikel from "./komponen/surat";
-import NewsDetail from "./komponen/tampilan";
-import Ayat from "./surat";
+import Atas from "./komponen/header";
+
+import Ayat from "./halaman/daftar ayat";
 
 function App() {
   return (

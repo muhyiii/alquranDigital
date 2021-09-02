@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import Artikel from "../komponen/surat";
+import Artikel from "../../komponen/menampilkan/surat";
 // import { BrowserRouter, Switch, Route, Redirect} from "react-router-dom";
 
 export default function Surat() {
